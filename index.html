@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MGN | Le blobus Margasus</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/png" sizes="512x512" href="img/icon/512x512.png">
+    <link rel="apple-touch-icon" href="img/icon/192x192.png">
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <li>
+                <img src="img/icon/512x512.png" alt="logo">
+                <h1>MG Nature</h1>
+            </li>
+            <li>
+                <a href="#part1">
+                    <h1>Blobus Margasus</h1>
+                </a>
+            </li>
+            <li>
+                <a href="#part2">
+                    <h1>C'est quoi ?</h1>
+                </a>
+            </li>
+            <li>
+                <a href="#part3">
+                    <h1>Ses origines</h1>
+                </a>
+            </li>
+            <li>
+                <a href="#part4">
+                    <h1>Un danger ?</h1>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="mobile-header">
+        <ul>
+            <li class="logo">
+                <a href="">
+                    <img src="img/icon/512x512.png" alt="logo">
+                    <h1>MG Nature</h1>
+                </a>
+            </li>
+            <li>
+                <button onclick="openMenu()" class="menu-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--text)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </li>
+        </ul>
+
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="#part1" onclick="closeMenu()">
+                        <h1>Blobus Margasus</h1>
+                    </a>
+                </li>
+                <li>
+                    <a href="#part2" onclick="closeMenu()">
+                        <h1>C'est quoi ?</h1>
+                    </a>
+                </li>
+                <li>
+                    <a href="#part3" onclick="closeMenu()">
+                        <h1>Ses origines</h1>
+                    </a>
+                </li>
+                <li>
+                    <a href="#part4" onclick="closeMenu()">
+                        <h1>Un danger ?</h1>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="part" id="part1">
+            <h1>Le Blobus Margasus</h1>
+            
+            <video controls>
+                <source src="img/video.mp4"
+                        type="video/mp4">
+            
+                Sorry, your browser doesn't support embedded videos.
+            </video>
+        </div>
+
+        <div class="part" id="part2">
+            <h1>C'est quoi ?</h1>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat rhoncus sapien, vitae ultrices magna tristique vel. Nam lacus quam, euismod a aliquam et, rhoncus et lectus. In orci erat, aliquam at iaculis bibendum, interdum eu dolor. In nulla felis, efficitur ut tortor eu, convallis pulvinar ipsum. Phasellus finibus leo tellus, quis volutpat turpis feugiat in. Vestibulum magna sem, semper a suscipit sed, ullamcorper nec ex. Suspendisse at mi ullamcorper, luctus est et, ullamcorper turpis. Sed tempor velit ac metus congue, ut efficitur neque pharetra. Nulla lobortis sem vel turpis iaculis, in laoreet libero commodo.</p>
+        </div>
+
+        <div class="part" id="part3">
+            <h1>Ses origines</h1>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat rhoncus sapien, vitae ultrices magna tristique vel. Nam lacus quam, euismod a aliquam et, rhoncus et lectus. In orci erat, aliquam at iaculis bibendum, interdum eu dolor. In nulla felis, efficitur ut tortor eu, convallis pulvinar ipsum. Phasellus finibus leo tellus, quis volutpat turpis feugiat in. Vestibulum magna sem, semper a suscipit sed, ullamcorper nec ex. Suspendisse at mi ullamcorper, luctus est et, ullamcorper turpis. Sed tempor velit ac metus congue, ut efficitur neque pharetra. Nulla lobortis sem vel turpis iaculis, in laoreet libero commodo.</p>
+            
+            <img src="img/img1.png" alt="Blobus Margasus">
+        </div>
+
+        <div class="part" id="part4">
+            <h1>Un danger ?</h1>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat rhoncus sapien, vitae ultrices magna tristique vel. Nam lacus quam, euismod a aliquam et, rhoncus et lectus. In orci erat, aliquam at iaculis bibendum, interdum eu dolor. In nulla felis, efficitur ut tortor eu, convallis pulvinar ipsum. Phasellus finibus leo tellus, quis volutpat turpis feugiat in. Vestibulum magna sem, semper a suscipit sed, ullamcorper nec ex. Suspendisse at mi ullamcorper, luctus est et, ullamcorper turpis. Sed tempor velit ac metus congue, ut efficitur neque pharetra. Nulla lobortis sem vel turpis iaculis, in laoreet libero commodo.</p>
+        
+            <img src="img/img2.png" alt="Avant et après l'acide du Blobus Margasus">
+        </div>
+
+
+        <div class="part" id="readlist">
+            <h1>À lire aussi</h1>
+
+            <img src="img/to-read1" alt="// NOM FAUX ARTICLE //">
+            <img src="img/to-read2" alt="// NOM FAUX ARTICLE //">
+        </div>
+
+        <div class="part" id="credits">
+            <h1>Crédits</h1>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat rhoncus sapien, vitae ultrices magna tristique vel.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
