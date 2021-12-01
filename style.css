@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto&display=swap');
-
 :root
 {
     --theme: white;
     --background: #F9F9F9;
     --green: #06908F;
     --text: #1F271B;
-    --shadow: rgba(0, 0, 0, 0.05)
+    --shadow: rgba(0, 0, 0, 0.1)
 }
 
 *
@@ -55,7 +53,7 @@ body
     width: 100%;
     height: 70px;
     background-color: var(--theme);
-    box-shadow: 0 0 30px var(--shadow);
+    box-shadow: 0 0 30px 15px var(--shadow);
     z-index: 5;
     padding: 0 15px;
 }
@@ -130,7 +128,7 @@ body
     top: 0;
     left: 0;
     background-color: var(--theme);
-    box-shadow: 0 0 30px var(--shadow);
+    box-shadow: 0 0 30px 15px var(--shadow);
     z-index: 5;
     padding: 0 15px;
 }
@@ -264,6 +262,9 @@ body
 }
 .menu h1
 {
+    width: intrinsic;
+    width: -moz-max-content;
+    width: -webkit-max-content;
     width: fit-content;
 }
 .menu h1::before
@@ -356,9 +357,14 @@ body
     font-size: 1.1em;
     color: var(--text);
 }
+.part img, .part .video
+{
+    box-shadow: 0 0 30px 15px var(--shadow);
+}
 .part img
 {
     width: 100%;
+    height: auto;
 }
 .video
 { 

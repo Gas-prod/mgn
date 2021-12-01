@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MGN | Dans cette article nous présentons la plus grosse découverte scientifique de l'année : le Blobus Margasus.">
     <title>MGN | Le blobus Margasus</title>
 
     <link rel="stylesheet" href="style.css">
 
     <link rel="icon" type="image/png" sizes="512x512" href="img/icon/512x512.png">
     <link rel="apple-touch-icon" href="img/icon/192x192.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="header">
@@ -19,22 +24,22 @@
                 <h1>MG Nature</h1>
             </li>
             <li>
-                <a href="#part1">
+                <a href="#part1" id="part1-link" onclick="goTo('part1')">
                     <h1>Blobus Margasus</h1>
                 </a>
             </li>
             <li>
-                <a href="#part2">
+                <a href="#part2" id="part2-link" onclick="goTo('part2')">
                     <h1>C'est quoi ?</h1>
                 </a>
             </li>
             <li>
-                <a href="#part3">
+                <a href="#part3" id="part3-link" onclick="goTo('part3')">
                     <h1>Ses origines</h1>
                 </a>
             </li>
             <li>
-                <a href="#part4">
+                <a href="#part4" id="part4-link" onclick="goTo('part4')">
                     <h1>Un danger ?</h1>
                 </a>
             </li>
@@ -62,22 +67,22 @@
         <div class="menu">
             <ul>
                 <li>
-                    <a href="#part1" onclick="closeMenu()">
+                    <a href="#part1" id="part1-mobile-link" onclick="goTo('part1')">
                         <h1>Blobus Margasus</h1>
                     </a>
                 </li>
                 <li>
-                    <a href="#part2" onclick="closeMenu()">
+                    <a href="#part2" id="part2-mobile-link" onclick="goTo('part2')">
                         <h1>C'est quoi ?</h1>
                     </a>
                 </li>
                 <li>
-                    <a href="#part3" onclick="closeMenu()">
+                    <a href="#part3" id="part3-mobile-link" onclick="goTo('part3')">
                         <h1>Ses origines</h1>
                     </a>
                 </li>
                 <li>
-                    <a href="#part4" onclick="closeMenu()">
+                    <a href="#part4" id="part4-mobile-link" onclick="goTo('part4')">
                         <h1>Un danger ?</h1>
                     </a>
                 </li>
@@ -120,8 +125,8 @@
         <div class="part" id="readlist">
             <h1>À lire aussi</h1>
 
-            <img src="img/to-read1" alt="// NOM FAUX ARTICLE //">
-            <img src="img/to-read2" alt="// NOM FAUX ARTICLE //">
+            <img src="img/to-read1.png" alt="// NOM FAUX ARTICLE //">
+            <img src="img/to-read2.png" alt="// NOM FAUX ARTICLE //">
         </div>
 
         <div class="part" id="credits">
