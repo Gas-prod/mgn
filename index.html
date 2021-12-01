@@ -11,10 +11,6 @@
 
     <link rel="icon" type="image/png" sizes="512x512" href="img/icon/512x512.png">
     <link rel="apple-touch-icon" href="img/icon/192x192.png">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="header">
@@ -54,7 +50,7 @@
                 </a>
             </li>
             <li>
-                <button onclick="openMenu()" class="menu-button">
+                <button onclick="openMenu()" aria-label="Ouvrir le menu" class="menu-button">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--text)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
                         <line x1="3" y1="12" x2="21" y2="12"></line>
                         <line x1="3" y1="6" x2="21" y2="6"></line>
@@ -95,7 +91,7 @@
             <h1>Le Blobus Margasus</h1>
             
             <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/3tGOQf4c_Lw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/3tGOQf4c_Lw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
             </div>
         </div>
 
@@ -137,5 +133,13 @@
     </div>
 
     <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Roboto:400', 'Merriweather:700']
+            }
+        })
+      </script>
 </body>
 </html>

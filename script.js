@@ -63,6 +63,4 @@ function goTo(part){
     closeMenu()
 }
 
-window.addEventListener("load", function(){
-    goTo(startPart);
-})
+goTo(startPart)
