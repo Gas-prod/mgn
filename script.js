@@ -63,6 +63,6 @@ function goTo(part){
     closeMenu()
 }
 
-if(startPart in ['part1', 'part2', 'part3', 'part4']){
+if(startPart == "part1" || startPart == "part2" || startPart == "part3" || startPart == "part4"){
     goTo(startPart);
 }
