@@ -357,6 +357,17 @@ body
     font-size: 1.1em;
     color: var(--text);
 }
+.part a
+{
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--green);
+    font-style: normal;
+}
+.part a:hover
+{
+    text-decoration: underline;
+}
 .part img, .part .video
 {
     box-shadow: 0 0 30px 15px var(--shadow);
