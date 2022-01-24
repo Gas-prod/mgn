@@ -201,11 +201,11 @@ body
 }
 .open
 {
-    display: block;
-
     animation-name: open-menu;
     animation-duration: 0.35s;
     animation-timing-function: ease;
+    
+    display: block;
 }
 .close
 {
